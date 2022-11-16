@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;500&family=Lora:ital@1&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h2{
+    font-family: 'Lora', serif;
+}
+
+.flex{
+    display: flex;
+    gap: var(--gap, 1.5rem);
+}
+
+
+/* Contact Header */
+.logo{
+    margin: 1rem;
+   }
+
+.contact-header{
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.primary-navigation{
+    list-style: none;
+    padding: 0;
+    margin: 0;   
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
+
+/* selected link */
+.active {
+    font-weight: bold;
+    color: rgb(157, 72, 241);
+}
+a:hover{
+    color: rgb(157, 72, 241);
+}
+
+.header-image-card{
+    width: 99vw; height: 60vh;
+    /* border: 2px greenyellow solid; */
+}
+.header-image{
+width:100%;
+height: 100%;
+object-fit: fill;
+}
